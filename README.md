@@ -77,7 +77,7 @@ Three classic ML models were trained and evaluated for sentiment classification:
 ## 🔗 Quick Links
 
 ### 🤖 Setup Locally - GuideLines
-- [McDonald's Sentiment Analysis](./Local_Setup_Guidelines.md)
+- [View GuideLines](./Local_Setup_Guidelines.md)
 
 ---
 ## 📁 Project Structure
