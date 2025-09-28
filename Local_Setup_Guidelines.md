@@ -8,7 +8,7 @@ It classifies reviews into three categories: **Positive**, **Neutral**, and **Ne
 ## 📁 Project Structure
 
 ```
-mcdonalds-sentiment-analysis/
+McDonald-s-Customer-Review-Sentiment-Analysis/
 │
 ├── 📁 data/
 │   └── mcd_reviews.csv               # Dataset file
@@ -37,8 +37,8 @@ Follow these steps to set up the project locally and run sentiment analysis on y
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mcdonalds-sentiment-analysis.git
-cd mcdonalds-sentiment-analysis
+git clone https://github.com/rashedul-dev/McDonald-s-Customer-Review-Sentiment-Analysis.git
+cd McDonald-s-Customer-Review-Sentiment-Analysis
 ```
 
 ---
@@ -81,7 +81,7 @@ nltk.download('omw-1.4')
 Place your McDonald’s reviews CSV file inside the `data/` folder:
 
 ```
-data/mcd_reviews.csv
+data/McDonald_s_Reviews.csv
 ```
 
 The CSV should contain at least the following columns:  
