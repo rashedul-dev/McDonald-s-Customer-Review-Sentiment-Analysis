@@ -74,7 +74,12 @@ Three classic ML models were trained and evaluated for sentiment classification:
 | **Accuracy** | 81.95% |
 
 ---
+## 🔗 Quick Links
 
+### 🤖 Setup Locally - GuideLines
+- [McDonald's Sentiment Analysis](./Local_Setup_Guidelines.md)
+
+---
 ## 📁 Project Structure
 ```
 mcdonalds-sentiment-analysis/
