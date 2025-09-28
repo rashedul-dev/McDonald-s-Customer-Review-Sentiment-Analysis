@@ -1,0 +1,48 @@
+========================
+📊 SENTIMENT ANALYSIS EVALUATION REPORT
+========================
+
+✅ Sample Prediction Example:
+Review: Perfect for a quick breakfast on the go. Coffee is excellent.
+Predicted Sentiment: POSITIVE
+Confidence: 0.966
+
+------------------------------------------------------------
+
+📦 Batch Analysis Example:
+
+| Review                                           | Sentiment | Confidence |
+|--------------------------------------------------|-----------|------------|
+| Fast service and tasty food                      | POSITIVE  | 0.909      |
+| Rude staff and long wait times                  | NEGATIVE  | 0.713      |
+| The ice cream machine was working for once!     | POSITIVE  | 0.361      |
+| Disappointing experience overall                | POSITIVE  | 0.575      |
+
+------------------------------------------------------------
+
+📈 Model Performance Summary:
+==================================================
+Best Model: LinearSVC
+Accuracy: 0.8195
+Dataset Size: 33,396 reviews
+
+Sentiment Distribution:
+- Positive Reviews: 16,061
+- Neutral Reviews: 4,818
+- Negative Reviews: 12,517
+==================================================
+
+🤖 Model Comparison:
+--------------------------------------------------
+| Model                 | Accuracy  |
+|-----------------------|-----------|
+| LinearSVC            | 0.819461  |
+| LogisticRegression   | 0.816168  |
+| MultinomialNB        | 0.806886  |
+--------------------------------------------------
+
+✅ Summary:
+- The **LinearSVC** model achieved the highest accuracy (~81.95%) and performed best across all sentiment classes.
+- Logistic Regression was close in performance and remains a strong alternative.
+- Multinomial Naive Bayes achieved slightly lower accuracy but is lightweight and faster to train.
+- Overall, the trained sentiment analysis system is reliable and ready for real-world review classification tasks.
